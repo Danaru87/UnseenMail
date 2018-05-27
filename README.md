@@ -7,6 +7,7 @@ Only works with IMAP Protocol (working on others like Google API)
 
 # Dependencies
 - Polybar
+- Python 3
 - FontAwesome V4 (see your Distribution font configuration)
 
 # Install
