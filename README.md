@@ -10,8 +10,9 @@ Only works with IMAP Protocol and Gmail APIs
 - Python 3
 - FontAwesome V4 (see your Distribution font configuration)
 - python Gmail APIs library (if you want to use Gmail APIs instead of IMAP for your Google accounts):
-    
-    pip install --upgrade google-api-python-client
+    	
+    	
+        pip install --upgrade google-api-python-client
 
 # Install
 
