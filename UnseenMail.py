@@ -38,7 +38,7 @@ def check_gmail(gmail_account):
 
 for account in accounts:
     currentAccount = accounts[account]
-    if account is "DEFAULT":
+    if account == "DEFAULT":
         continue
     if not currentAccount["icon"]:
         icon = accounts["DEFAULT"]["icon"]
