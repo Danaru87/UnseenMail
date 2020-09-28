@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from __future__ import print_function
 from apiclient.discovery import build
 from httplib2 import Http
@@ -19,7 +20,10 @@ def check_imap(imap_account):
     else:
         client = imaplib.IMAP4(imap_account["host"], int(imap_account["port"]))
     client.login(imap_account["login"], imap_account["password"])
-    client.select()
+    if "folder" in imap_account:
+        client.select(imap_account["folder"])
+    else:
+        client.select()
     return len(client.search(None, 'UNSEEN')[1][0].split())
 
 
