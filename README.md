@@ -1,10 +1,3 @@
-# See Ya Github !
-
-This project moved to other open source git social network.
-Based on gitlab, Framagit is an instance that protect users privacy.
-
-You can see my projects on 
-[Framagit DanaruDev repositories](https://framagit.org/users/DanaruDev/projects)
 # UnseenMail
 Polybar Python script for viewing unread email from multi accounts
 
