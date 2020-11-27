@@ -9,7 +9,7 @@ import os
 import configparser
 
 dirname = os.path.split(os.path.abspath(__file__))[0]
-accounts = configparser.ConfigParser()
+accounts = configparser.RawConfigParser()
 accounts.read(os.path.abspath(dirname + '/accounts.ini'))
 strFormatted = ""
 
